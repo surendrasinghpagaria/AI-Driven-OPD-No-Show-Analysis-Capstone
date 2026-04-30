@@ -134,7 +134,7 @@ Run all cells top-to-bottom (Kernel → Restart & Run All).
 | XGBoost | 0.687 | 90.4% | 0.384 | +0.209 ❌ |
 | **Tuned XGBoost** | **0.727** | — | — | **+0.034 ✓** |
 
-> ⚠️ All models fail the Demographic Parity Difference fairness threshold (< 0.05). Fairness-aware retraining is recommended before clinical deployment.
+ > ⚠️ All four baseline models fail the Demographic Parity Difference fairness threshold (< 0.05). However, the **Tuned XGBoost achieves DPD = +0.034 ✓**, the only model passing the fairness test, making it the recommended model for clinical deployment.
 
 ### No-Show Rate by WaitDays
 
