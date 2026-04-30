@@ -132,7 +132,7 @@ Run all cells top-to-bottom (Kernel → Restart & Run All).
 | Decision Tree | 0.691 | 57.8% | 0.398 | +0.338 ❌ |
 | Random Forest | 0.663 | 43.4% | 0.362 | +0.123 ❌ |
 | XGBoost | 0.687 | 90.4% | 0.384 | +0.209 ❌ |
-| **Tuned XGBoost** | **0.727** | — | — | — |
+| **Tuned XGBoost** | **0.727** | — | — | **+0.034 ✓** |
 
 > ⚠️ All models fail the Demographic Parity Difference fairness threshold (< 0.05). Fairness-aware retraining is recommended before clinical deployment.
 
